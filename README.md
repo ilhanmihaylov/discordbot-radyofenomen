@@ -15,3 +15,11 @@ Installation
 6. Create Discord Bot and retrieve Token.
 7. Edit ```secrets.py``` and put your Token on placeholder.
 8. Run ```main.py```
+
+
+Docker Installation
+------------
+1. Create Discord Bot and retrieve Token.
+2. Edit ```secrets.py``` and put your Token on placeholder.
+3. Build Docker Image From Dockerfile ```docker build . -t fenomenbot```
+4. Run Container From Image ```docker run -d --name fenomen fenomenbot```
